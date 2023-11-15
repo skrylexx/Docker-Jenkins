@@ -14,14 +14,14 @@ Récupérez le fichier Dockerfile pour le mettre dans le dossier ou se trouvera 
   
 ##Lancer le containeur docker  
 Une fois l'image construire, vous pouvez lancer votre docker avec la commande :  
-`docker run -p 8080:8080 -d leeroy --name jenkins`  
+`docker run --name jenkins -p 8080:8080 -d leeroy`  
   
 `-p` précise le mappage du port (ici de 8080 à 8080)  
 `-d` lance le containeur en fond (mode détaché)  
   
 ##Accès à Jenkins  
 Pour accèder à votre service, vous pouvez coller ce lien dans votre navigateur : http://localhost:8080
-Le service vous demandra le mot de passe d'administrateur, pour l'obtenir, lancez docker exec jenkins cat /root/.jenkins/secrets/initialAdminPassword
+Le service vous demandra le mot de passe d'administrateur, pour l'obtenir, lancez `docker exec jenkins cat /root/.jenkins/secrets/initialAdminPassword`
   
 ##License  
 Ce projet est sous license MIT.
