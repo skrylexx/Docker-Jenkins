@@ -22,6 +22,7 @@ Une fois l'image construire, vous pouvez lancer votre docker avec la commande :
 ##Accès à Jenkins  
 Pour accèder à votre service, vous pouvez coller ce lien dans votre navigateur : http://localhost:8080
 Le service vous demandra le mot de passe d'administrateur, pour l'obtenir, lancez `docker exec jenkins cat /root/.jenkins/secrets/initialAdminPassword`
+Vous pouvez passer le wizzard en cliquant sur la croix de celui ci
   
 ##License  
 Ce projet est sous license MIT.
