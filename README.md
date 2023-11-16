@@ -25,5 +25,5 @@ Le service vous demandra le mot de passe d'administrateur, pour l'obtenir, lance
 Vous pouvez passer le wizzard en cliquant sur la croix de celui ci
   
 ##License  
-Ce projet est sous license MIT.
+Ce projet est sous license MIT.  
 Alex, Vincent, Matthieu 
