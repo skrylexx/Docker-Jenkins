@@ -1,6 +1,6 @@
 # Docker-Jenkins  
   
-## Projet Jenkins Docker   
+## Projet Jenkins Docker  ##
 Ce projet propose une version Docker de Jenkins. Elle permet une maintenance et une mise en place simple.  
   
 ##Prérequis  
