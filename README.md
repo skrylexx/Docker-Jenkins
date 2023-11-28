@@ -26,4 +26,4 @@ Vous pouvez passer le wizzard en cliquant sur la croix de celui ci
   
 ##License  
 Ce projet est sous license MIT.  
-Alex, Vincent, Matthieu 
+Alexandre, Vincent et Matthieu 
